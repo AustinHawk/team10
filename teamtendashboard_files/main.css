@@ -1,0 +1,165 @@
+body {
+  background-color: #2e2e2e;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+a {
+  text-decoration: none !important; }
+
+.button {
+  padding: 10px 15px 5px 15px; }
+  .button > * {
+    padding: 0;
+    margin: 0; }
+
+.topbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; }
+
+h1, h2, h3, h4, h5, h6, p, a {
+  font-family: "Roboto","Helvtica Neue", sans-serif;
+  color: #2e2e2e; }
+
+h1{
+  font-size: 90px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  margin: 0 auto;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 44px;
+  text-transform: uppercase;
+  line-height: 1em;
+  margin: 10px;
+  color: rgba(255,255,255,.5)!important;
+}
+
+.title {
+  color: #fcfcfc;
+  text-align: center; }
+
+.brand {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: left; }
+
+#download {
+  top: 20px;
+  right: 20px;
+  position: absolute;
+  background-color: #f5b606; }
+
+#initial {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(./los_angeles.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  #initial:after {
+    content: " ";
+    background: -webkit-radial-gradient(top center, cover, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%); }
+
+#screens {
+  background-color: #fcfcfc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: scroll; }
+  #screens img {
+    margin: 20px 20px 0px 20px;
+    height: 400px !important; }
+    #screens p {
+      padding-left:20px;
+    }
+
+.center {
+  text-align: center; }
+
+#devTeam {
+  background-color: #fcfcfc;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
+  #devTeam:first-child {
+    margin-bottom: 200px; }
+  #devTeam .team {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap; }
+    #devTeam .team .prof {
+      margin: 0 20px; }
+      #devTeam .team .prof img {
+        border-radius: 50%;
+        height: 100px; }
+      #devTeam .team .prof p {
+        padding-top: 10px; }
+      #devTeam .team .prof p:hover {
+        color: #f5b606; }
+
+#stack {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  width: 220px; }
+  #stack .tool {
+    height: 50px;
+    margin-bottom: 10px; }
+
+#stack img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+#stack img:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%); }
+
+@media (min-width: 375px) {
+  #devTeam:first-child {
+    margin-bottom: 100px; }
+
+  .brand {
+    margin-top: 40px;
+    margin-left: 40px; }
+
+  #download {
+    top: 40px;
+    right: 40px; } }
+@media (min-width: 443px) {
+  #devTeam:first-child {
+    margin-bottom: 0; } }
+@media (min-width: 640px) {
+  #download {
+    top: 50px; }
+
+  .prof {
+    margin: 0 10px; }
+    .prof img {
+      height: 150px !important; } }
+@media (min-width: 795px) {
+  #stack {
+    display: block;
+    width: 100%; }
+    #stack > a {
+      margin: 0 40px; } }
+
+/*# sourceMappingURL=main.css.map */

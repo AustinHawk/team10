@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://crellison.github.io/clinkyLanding/# -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Team10 Dashboard App</title>
+    
+    <script src="./teamtendashboard_files/jquery.min.js"></script>
+    <link rel="stylesheet" href="./teamtendashboard_files/main.css" charset="utf-8">
+    <style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900';
+</style>
+  </head>
+  <body>
+    <div id="initial" style="height: 786px;">
+      <div class="topbar">
+        <h3 class="title brand">Team10 Dashboard</h3>
+      </div>
+      <div class="tagline">
+        <h1 class="title">Social Con<span style="color: orange">ten</span>t</h1>
+        <h2 class="title">Fully Integrated Social Media Analyzation</h2>
+      </div>
+    </div>
+    <div id="screens">
+      <div>
+        <img class="screen" src="./teamtendashboard_files/lock.png">
+          <p>Lockscreen: Extra security to validate team10 members</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/register.png">
+          <p>Registration</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/login.png">
+        <p>Login</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/integrate.png">
+          <p>Integration: Clicking each icon authorizes our app for social media analyzation</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/allintegrate.png">
+          <p>Fully integrated</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/dashboard.png">
+          <p>Dashboard: Interactive dashboard that tracks number of likes, comments, etc. per post</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/graph.png">
+        <p>Graphs: Measuring follower engagement over time</p>
+      </div>
+      <div>
+        <img class="screen" src="./teamtendashboard_files/trigger.png">
+        <p>Triggers: SMS message to remind users to post new content</p>
+      </div>
+    </div>
+    <div id="devTeam" style="height: 786px;">
+      <div>
+        <h3 class="center">Our Team</h3>
+        <div class="team">
+          <div class="prof"><img src="./teamtendashboard_files/steven.jpg"><a href="https://github.com/stevenflin">
+              <p class="center">Steven Lin</p></a></div>
+          <div class="prof"><img src="./teamtendashboard_files/parker.jpg"><a href="https://github.com/pakaplace">
+              <p class="center">Parker Place</p></a></div>
+          <div class="prof"><img src="./teamtendashboard_files/Austin.jpg"><a href="https://github.com/AustinHawk">
+              <p class="center">Austin Hawkins</p></a></div>
+        </div>
+      </div>
+      <div>
+        <h3 class="center">Built On</h3>
+        <div id="stack"><a href="http://handlebarsjs.com/"><img class="tool" src="./teamtendashboard_files/ihatevirginia.png"></a><a href="https://nodejs.org/en/"><img class="tool" src="./teamtendashboard_files/nodejs-icon.svg"></a><a href="https://expressjs.com/"><img class="tool" src="./teamtendashboard_files/express-109.svg"></a><a href="https://www.mongodb.com/"><img class="tool" src="./teamtendashboard_files/mongodb.svg"></a></div>
+      </div>
+    </div>
+  
+  <script>
+    $('#initial').css({height: window.innerHeight})
+    //- $('.screen').css({'max-width': window.innerWidth-60, 'max-height': window.innerHeight-40})
+    $('#fixWidth').css({width: window.innerWidth-60})
+    $('#devTeam').css({height: window.innerHeight})
+    $('#download').click(e => $(e.target).text('NOT YET'))
+  </script>
+</body></html>
