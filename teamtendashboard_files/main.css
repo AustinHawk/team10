@@ -53,7 +53,7 @@ h2{
   top: 20px;
   right: 20px;
   position: absolute;
-  background-color: #f5b606; }
+  background-color: orange; }
 
 #initial {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(./los_angeles.jpg) no-repeat center center fixed;
